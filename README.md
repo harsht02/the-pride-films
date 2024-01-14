@@ -9,6 +9,6 @@ This is a React application that utilizes Redux for state management and Materia
    ```bash
    git clone https://github.com/harsht02/the-pride-films.git
    cd your-repository
-npm install
-npm start
-npm run build
+   npm install
+   npm start
+   npm run build
