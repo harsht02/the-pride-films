@@ -12,7 +12,7 @@ import Post from "../components/photoshoots/post";
 const Index = () => {
   return (
     <>
-      <Routes component={props => <Header  {...props}/>}>
+<Routes component={props => <Header  {...props}/>}>
         <Route exact path="/" element={<HomePage /> } />
         <Route path="/about" element={<Post />} />
         <Route path="/reels" element={<Reels />} />
@@ -23,7 +23,7 @@ const Index = () => {
 
       </Routes>
     </>
-  );
+);    
 };
 
 export default Index;

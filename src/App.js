@@ -43,7 +43,7 @@ const App = () => {
           <Box display={"flex"} flex={1}>
             <CustomDrawer />
             <Index />
-          </Box>
+          </Box>  
         </Stack>
       </Box>
     </AppContext.Provider>
